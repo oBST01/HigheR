@@ -21,18 +21,33 @@ div.menu ul {
 
     padding: 0;
 
-    width: 30%;
+    width: 70vh;
 }
 
 div.menu li {
     list-style: none;
     font-size: 2.5vh;
+    cursor: pointer;
+
+    transition: 0.2s all;
+}
+
+div.menu li:hover {
+    transform: scale(1.1);
 }
 
 img.logo {
     position: absolute;
-    top: 30px;
+    top: 5vh;
     left: 1;
-    width: 60px;
-    border-radius: 50px;
+    width: 10vh;
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+img.logo:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
 }

@@ -120,6 +120,8 @@ const Particles = () => {
             },
           },
         },
+        fullScreen: true,
+        style: {position: "absolute"},
         retina_detect: true,
       }}
     />

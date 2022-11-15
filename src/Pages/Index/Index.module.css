@@ -1,3 +1,12 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 div.background {
   display: flex;
   flex-direction: column;
@@ -13,13 +22,25 @@ div.background {
   background-repeat: no-repeat;
 }
 
+div.background path {
+  animation: fadeIn 8s;
+}
+
 h1.title {
     font-size: 150px;
     font-weight: 100;
+
+    animation: fadeIn 5s;
+}
+
+h2.uppertitle {
+  animation: fadeIn 4s;
 }
 
 h3.subtitle {
     font-weight: 200;
     letter-spacing: 0.2px;
     font-size: 30px;
+
+    animation: fadeIn 6s;
 }
