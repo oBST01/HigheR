@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&family=Sarabun&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3,p {
+    z-index: 99;
+}
+
+h1 {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Sarabun", sans-serif;
+    text-align: center;
+}
