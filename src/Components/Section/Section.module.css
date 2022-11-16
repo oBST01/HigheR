@@ -8,9 +8,19 @@ div.section {
   align-items: center;
 
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 
   opacity: 0%;
 
   transition: 2s all;
+}
+
+div.section.row {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 680px) {
+  div.section.row {
+    flex-direction: column;
+  }
 }

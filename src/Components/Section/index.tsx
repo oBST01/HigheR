@@ -4,10 +4,11 @@ import classes from "./Section.module.css";
 interface IProps {
   children: React.ReactNode;
   style?: React.CSSProperties;
+  row?: boolean;
   scrollFadePosition: number;
 }
 
-const Section: React.FC<IProps> = ({ children, style, scrollFadePosition }) => {
+const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row }) => {
   const sectionElement = useRef() as MutableRefObject<HTMLDivElement>;
   document.addEventListener("scroll", () => {
     const { scrollY } = window;
@@ -20,7 +21,7 @@ const Section: React.FC<IProps> = ({ children, style, scrollFadePosition }) => {
     sectionElement.current.style.opacity = "100%";
   }, [sectionElement]);
   return (
-    <div ref={sectionElement} style={style} className={classes.section}>
+    <div ref={sectionElement} style={style} className={`${classes.section} ${row && `${classes.row}`}`}>
       {children}
     </div>
   );
