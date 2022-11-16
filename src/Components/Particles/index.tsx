@@ -15,7 +15,7 @@ const Particles = () => {
       options={{
         particles: {
           number: {
-            value: 62,
+            value: 31,
             density: {
               enable: true,
               value_area: 315.65905665290904,
@@ -121,7 +121,7 @@ const Particles = () => {
           },
         },
         fullScreen: true,
-        style: {position: "absolute"},
+        style: { position: "absolute" },
         retina_detect: true,
       }}
     />
