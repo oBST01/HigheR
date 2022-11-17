@@ -27,13 +27,15 @@
   }
   
   h1.title {
-      font-size: 150px;
+      font-size: 25vmin;
       font-weight: 100;
   
       animation: fadeIn 5s;
   }
   
   h2.uppertitle {
+    font-size: 4vh;
+    font-weight: 900;
     animation: fadeIn 4s;
   }
   

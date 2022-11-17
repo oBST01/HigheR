@@ -1,20 +1,20 @@
 div.container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
-    flex: 1;
+  margin-bottom: 2vh;
+
+  flex: 1;
 }
 
 h2.segTitle {
-    font-size: 6vh;
-    font-weight: 500;
-    margin-bottom: 4vh;
+  margin-bottom: 4vh;
 }
 
 p.segDesc {
-    font-size: 2.5vh;
+  font-size: 2.5vh;
 }

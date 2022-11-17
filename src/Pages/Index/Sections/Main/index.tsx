@@ -18,9 +18,7 @@ const Main = () => {
         </h2>
         <h1 className={classes.title}>HigheR</h1>
         <h3 className={classes.subtitle}>Tecnologia Futurista</h3>
-        <div
-          className={classes.iconsContainer}
-        >
+        <div className={classes.iconsContainer}>
           <IconContext.Provider
             value={{
               size: "60px",

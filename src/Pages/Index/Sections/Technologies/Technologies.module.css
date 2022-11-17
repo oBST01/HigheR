@@ -1,0 +1,12 @@
+div.techItemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  div.techItemsContainer img {
+    display: none;
+  }
+}
