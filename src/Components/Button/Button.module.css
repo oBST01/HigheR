@@ -4,15 +4,16 @@ button.defaultButton {
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(90deg, rgba(53,0,88,1) 0%, rgba(1,0,203,1) 100%);;
+    background: linear-gradient(90deg, rgba(53,0,88,1) 0%, rgba(1,0,203,1) 100%);
     border-radius: 50px;
     color: white;
 
-    padding: 7px;
+    padding: 7px 50px;
 
     font-size: 2vh;
     letter-spacing: 1px;
     outline: none;
+    border: none;
 
     cursor: pointer;
     transition: 0.2s all;
