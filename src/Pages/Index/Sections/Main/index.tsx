@@ -22,11 +22,15 @@ const Main = () => {
           <IconContext.Provider
             value={{
               size: "60px",
-              style: { fill: "rgb(40, 40, 40)", margin: "1vh", zIndex: 99 },
+              style: { fill: "white" },
             }}
           >
-            <FaGithub />
-            <FaRegEnvelope />
+            <a className={classes.icon} target="_blank">
+              <FaGithub />
+            </a>
+            <a className={classes.icon} target="_blank">
+              <FaRegEnvelope />
+            </a>
           </IconContext.Provider>
         </div>
       </div>

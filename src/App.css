@@ -35,4 +35,6 @@ h1 {
 h2 {
   font-family: "Sarabun", sans-serif;
   text-align: center;
+  font-size: 7vmin;
+  font-weight: 400;
 }
