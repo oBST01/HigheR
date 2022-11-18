@@ -1,7 +1,6 @@
 import classes from "./About.module.css";
 
 import Button from "../../../../Components/Button";
-import DefaultContainer from "../../../../Components/DefaultContainer";
 import Section from "../../../../Components/Section";
 
 import galaxyImage from "../../../../assets/galaxy.png";
@@ -17,7 +16,7 @@ const About = () => {
     >
       <div className={classes.container}>
         <img width={500} src={galaxyImage} alt="galaxy" />
-        <Button onClick={() => {}}>
+        <Button style={{marginTop: "-6vh"}} onClick={() => {}}>
           <FaRegEnvelope size={20} style={{ margin: "1vh" }} /> FALE CONOSCO
         </Button>
       </div>

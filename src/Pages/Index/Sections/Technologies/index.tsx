@@ -5,13 +5,7 @@ import TechItem from "../../../../Components/TechItem";
 
 import SpaceshipImage from "../../../../assets/spaceship.png";
 
-import {
-  FaBicycle,
-  FaGamepad,
-  FaImage,
-  FaLandmark,
-  FaTv,
-} from "react-icons/fa";
+import { FaBicycle, FaGamepad, FaImage, FaTv } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
 const Technologies = () => {
@@ -20,31 +14,37 @@ const Technologies = () => {
       <h2 style={{ fontWeight: "bold" }}>Nossas Tecnologias</h2>
       <div className={classes.techItemsContainer}>
         <IconContext.Provider value={{ size: "85" }}>
+          <div className={classes.techItemBox}>
             <TechItem
               title="ACESSÓRIOS"
-              description="bla bla bla"
+              description="Nossa tecnologia no seu dia-a-dia"
               path="/acessorios"
               icon={<FaGamepad />}
             />
             <TechItem
               title="VÍDEO"
-              description="bla bla bla"
+              description="Novas maneiras de visualizar a vida"
               path="/video"
               icon={<FaTv />}
             />
-          <img src={SpaceshipImage} width="300" height="300" />
+          </div>
+          <div className={`${classes.techItemBox} ${classes.spaceship}`}>
+            <img src={SpaceshipImage} width="200" height="200" />
+          </div>
+          <div className={classes.techItemBox}>
             <TechItem
               title="MOBILIDADE"
-              description="bla bla bla"
+              description="Tecnologias que te levará a onde você quiser"
               path="/mobilidade"
               icon={<FaBicycle />}
             />
             <TechItem
               title="NFTS"
-              description="bla bla bla"
+              description="Uma nova forma de investimento e comércio com nossas artes."
               path="/acessorios"
               icon={<FaImage />}
             />
+          </div>
         </IconContext.Provider>
       </div>
     </Section>

@@ -28,19 +28,19 @@
   
   h1.title {
       font-size: 25vmin;
-      font-weight: 100;
+      font-weight: bold;
   
       animation: fadeIn 5s;
   }
   
   h2.uppertitle {
     font-size: 4vh;
-    font-weight: 900;
+    font-weight: bold;
     animation: fadeIn 4s;
   }
   
   h3.subtitle {
-      font-weight: 200;
+      font-weight: bold;
       letter-spacing: 0.2px;
       font-size: 30px;
   

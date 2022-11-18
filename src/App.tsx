@@ -6,6 +6,7 @@ import "./App.css";
 import Index from "./Pages/Index/Index";
 
 const App = () => {
+  
   return (
     <BrowserRouter>
       <Routes>

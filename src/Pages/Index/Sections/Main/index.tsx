@@ -21,14 +21,14 @@ const Main = () => {
         <div className={classes.iconsContainer}>
           <IconContext.Provider
             value={{
-              size: "60px",
-              style: { fill: "white" },
+              size: "64px",
+              style: { fill: "#231F20" },
             }}
           >
-            <a className={classes.icon} target="_blank">
+            <a className={classes.icon} target="_blank" href="https://github.com/oBST01/HigheR">
               <FaGithub />
             </a>
-            <a className={classes.icon} target="_blank">
+            <a className={classes.icon} target="_blank" href="mailto:contato@higher.com">
               <FaRegEnvelope />
             </a>
           </IconContext.Provider>

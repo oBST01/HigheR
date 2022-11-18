@@ -3,12 +3,13 @@ import classes from "./Button.module.css";
 
 interface IProps {
     children: React.ReactNode;
+    style: React.CSSProperties;
     onClick: () => void;
 }
 
-const Button: React.FC<IProps> = ({children, onClick}) => {
+const Button: React.FC<IProps> = ({children, onClick, style}) => {
   return (
-    <button className={classes.defaultButton} onClick={onClick}>{children}</button>
+    <button style={style} className={classes.defaultButton} onClick={onClick}>{children}</button>
   )
 }
 
