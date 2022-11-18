@@ -1,0 +1,29 @@
+div.section {
+  display: flex;
+  flex-direction: column;
+
+  background-color: black;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  margin-block: 2vh;
+
+  opacity: 0%;
+
+  transition: 2s all;
+}
+
+div.section.row {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 680px) {
+  div.section.row {
+    flex-direction: column;
+  }
+}

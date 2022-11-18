@@ -1,0 +1,28 @@
+div.techItemsContainer {
+  display: flex;
+  width: 100%;
+}
+
+div.techItemsContainer div.techItemBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 2;
+}
+
+div.techItemsContainer div.spaceship {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  div.techItemsContainer {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  div.techItemsContainer div.spaceship {
+    margin-block: 14vh;
+  }
+}

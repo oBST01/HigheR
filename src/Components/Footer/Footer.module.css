@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    background: rgb(0,5,88);
+    background: linear-gradient(180deg, #000000 23.37%, #460041 50.91%, #010043 100%); 
+
+    width: 100%;
+}
+
+.footer div {
+    display: flex;
+    margin: 1vh;
+    justify-content: space-around;
+}
+
+.footer div div {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer div.title {
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer p {
+    font-weight: 900;
+}
+
+.footer h3 {
+    font-size: 3vmin;
+    text-align: center;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer div.title img {
+    width: 10vh;
+}
