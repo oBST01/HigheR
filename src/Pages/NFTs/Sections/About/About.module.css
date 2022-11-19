@@ -1,0 +1,39 @@
+div.imgText {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+div.imgText img {
+    flex: 1;
+    width: 10vh;
+}
+
+div.imgText h1 {
+    flex: 1;
+}
+
+div.text {
+    display: flex;
+    width: 70%;
+    background: rgba(171, 171, 171, 0.2);
+    padding: 2vh;
+}
+
+div.text p {
+    font-size: 4vh;
+}
+
+@media screen and (max-width: 680px) {
+    div.imgText {
+        flex-direction: column-reverse;
+    }
+
+    div.imgText img {
+        width: 100%;
+    }
+
+    div.text {
+        width: 90%;
+    }
+}
