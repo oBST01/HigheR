@@ -5,10 +5,11 @@ interface IProps {
   children: React.ReactNode;
   style?: React.CSSProperties;
   row?: boolean;
+  reverse?: boolean;
   scrollFadePosition: number;
 }
 
-const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row }) => {
+const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row, reverse }) => {
   const sectionElement = useRef() as MutableRefObject<HTMLDivElement>;
   document.addEventListener("scroll", () => {
     const { scrollY } = window;
@@ -21,7 +22,7 @@ const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row })
     sectionElement.current.style.opacity = "100%";
   }, [sectionElement]);
   return (
-    <div ref={sectionElement} style={style} className={`${classes.section} ${row && `${classes.row}`}`}>
+    <div ref={sectionElement} style={style} className={`${classes.section} ${row && `${reverse ? classes.rowReverse : classes.row}`}`}>
       {children}
     </div>
   );

@@ -13,8 +13,12 @@ div.container {
 
 h2.segTitle {
   margin-bottom: 4vh;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 700;
+  text-align: start;
 }
 
 p.segDesc {
-  font-size: 2.5vh;
+  font-size: 3vh;
+  text-align: start;
 }

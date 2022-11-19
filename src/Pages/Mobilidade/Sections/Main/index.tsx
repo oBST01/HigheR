@@ -4,10 +4,10 @@ import Section from "../../../../Components/Section";
 const Main = () => {
   return (
     <Section scrollFadePosition={0}>
-      <BackgroundSection backgroundImageName="background-acessorios.jpg">
-        <h2 style={{color: "black"}}>HigheR</h2>
-        <h1 style={{color: "black"}}>Acessórios</h1>
-      </BackgroundSection>
+        <BackgroundSection backgroundImageName="background-mobilidade.jpg">
+        <h1>Mobilidade</h1>
+        <h3>HigheR</h3>
+        </BackgroundSection>
     </Section>
   );
 };

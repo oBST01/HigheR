@@ -14,10 +14,8 @@ const BackgroundSection: React.FC<IProps> = ({
     import.meta.url
   ).href;
   return (
-    <div   
-      className={classes.background}
-    >
-        <img src={backgroundImage} />
+    <div className={classes.background}>
+      <img src={backgroundImage} />
       {children}
     </div>
   );

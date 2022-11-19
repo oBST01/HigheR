@@ -20,8 +20,15 @@ div.section.row {
   flex-direction: row;
 }
 
+div.section.rowReverse {
+  flex-direction: row;
+}
+
 @media screen and (max-width: 680px) {
   div.section.row {
     flex-direction: column;
+  }
+  div.section.rowReverse {
+    flex-direction: column-reverse;
   }
 }

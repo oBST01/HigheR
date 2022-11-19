@@ -13,6 +13,7 @@ const About = () => {
       scrollFadePosition={300}
       style={{ justifyContent: "space-around", padding: "5vh" }}
       row={true}
+      reverse={true}
     >
       <div className={classes.container}>
         <img width={500} src={galaxyImage} alt="galaxy" />

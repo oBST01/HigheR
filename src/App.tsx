@@ -4,6 +4,7 @@ import "./App.css";
 
 import Index from "./Pages/Index/Index";
 import Acessorios from "./Pages/Acessorios";
+import Mobilidade from "./Pages/Mobilidade";
 
 const App = () => {
   
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route index path="/" element={<Index />} />
         <Route path="/acessorios" element={<Acessorios />} />
+        <Route path="/mobilidade" element={<Mobilidade />} />
       </Routes>
     </BrowserRouter>
   );
