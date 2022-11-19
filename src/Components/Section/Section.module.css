@@ -11,8 +11,6 @@ div.section {
   min-height: 100vh;
   overflow: hidden;
 
-  margin-block: 2vh;
-
   opacity: 0%;
 
   transition: 2s all;

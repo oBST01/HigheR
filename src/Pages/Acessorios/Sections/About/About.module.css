@@ -1,0 +1,30 @@
+.text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.text h2 {
+  text-align: start;
+  font-weight: 900;
+}
+
+.img {
+  display: flex;
+  flex: 1;
+}
+
+.img img {
+  margin-top: -10vh;
+  margin-left: 20vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+    .img img {
+        display: block;
+        margin: auto;
+        width: 60vh;
+        margin-top: -30vh;
+    }
+}

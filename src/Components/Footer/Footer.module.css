@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
 
-    background: rgb(0,5,88);
-    background: linear-gradient(180deg, #000000 23.37%, #460041 50.91%, #010043 100%); 
-
     width: 100%;
 }
 

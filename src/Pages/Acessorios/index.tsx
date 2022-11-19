@@ -2,20 +2,19 @@ import React from "react";
 import Footer from "../../Components/Footer";
 import Menu from "../../Components/Menu";
 import About from "./Sections/About";
-
 import Main from "./Sections/Main";
-import Technologies from "./Sections/Technologies";
+import Products from "./Sections/Products";
 
-const Index = () => {
+const Acessorios = () => {
   return (
-    <React.Fragment key={"Page sections"}>
+    <React.Fragment>
       <Menu />
       <Main />
       <About />
-      <Technologies />
-      <Footer background="linear-gradient(180deg, #000000 23.37%, #460041 50.91%, #010043 100%)" />
+      <Products />
+      <Footer background="linear-gradient(180deg, #000000 23.37%, #DE3E32 100%)" />
     </React.Fragment>
   );
 };
 
-export default Index;
+export default Acessorios;

@@ -1,9 +1,9 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
 import Index from "./Pages/Index/Index";
+import Acessorios from "./Pages/Acessorios";
 
 const App = () => {
   
@@ -11,6 +11,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route index path="/" element={<Index />} />
+        <Route path="/acessorios" element={<Acessorios />} />
       </Routes>
     </BrowserRouter>
   );
