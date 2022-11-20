@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Sarabun&display=swap');
+*{
+    color:#FFFFFF;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    letter-spacing: 0.2vh;
+}
+h1{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 8vh;
+}
+label{
+    font-size: 20px;
+}
+article{
+    justify-content: center;
+    display: flex;
+}
+.divForms{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    box-sizing: border-box;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+
+}
+textarea {
+    padding: 5px 0 0 10px;
+    width: 900px;
+    height: 280px;
+
+    background: rgba(171, 171, 171, 0.082);
+    border-radius: 15px;
+}
+input{
+    padding-left: 10px;
+    width: 900px;
+    height: 35px;
+
+    background: rgba(171, 171, 171, 0.082);
+    border-radius: 25px;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+button {
+    width: 320px;
+    height: 60px;
+    background: linear-gradient(180deg, #400032 0%, #0C002C 100%);
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    width: 50vh;
+    height: 100%;
+    transition: 0.2s all;
+}
+.divButton{
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 0 5vh 0;
+}
+.div1 {
+    padding-bottom: 5vh;
+}
+#nome{
+    margin-bottom: 3vh;
+}
+button:hover{
+    transform: scale(1.02);
+    border: 2px solid white;
+    background: rgba(171, 171, 171, 0.082);
+}
+
