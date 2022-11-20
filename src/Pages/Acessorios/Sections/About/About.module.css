@@ -1,0 +1,36 @@
+.text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.text h2 {
+  text-align: start;
+  font-size: 7vh;
+  font-weight: 900;
+}
+
+.text p {
+  font-size: 3vh;
+}
+
+.img {
+  display: flex;
+  flex: 1;
+}
+
+.img img {
+  margin-top: -10vh;
+  margin-left: 20vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+    .img img {
+        display: block;
+        margin: auto;
+        width: 60vh;
+        margin-top: -30vh;
+    }
+}

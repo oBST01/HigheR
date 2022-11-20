@@ -1,0 +1,16 @@
+div.iconsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+a.icon {
+  cursor: pointer;
+  z-index: 99;
+  transition: 0.2s all;
+  margin: 1vh;
+}
+
+a.icon:hover {
+  transform: scale(1.1);
+}

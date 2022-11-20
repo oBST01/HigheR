@@ -1,0 +1,30 @@
+div.img img {
+    width: 80vmin;
+}
+
+div.text {
+    margin-top: 10vh;
+    padding: 3vh;
+    width: 60vh;
+    max-width: 90vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: start;
+}
+
+div.text h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 8vmin;
+    font-weight: 700;
+    text-align: inherit;
+    margin-bottom: 5vh;
+}
+
+div.text p {
+    font-size: 3.2vh;
+}
+
+@media screen and (max-width: 680px) {
+    div.text {
+        width: 95%;
+    }
+}
