@@ -15,7 +15,7 @@ const Main = () => {
         <h2>
           PENSE ALTO <br /> PENSE INFINITO
         </h2>
-        <h1>HigheR</h1>
+        <h1 style={{fontSize: "25vmin"}}>HigheR</h1>
         <h3>Tecnologia Futurista</h3>
         <div className={classes.iconsContainer}>
           <IconContext.Provider

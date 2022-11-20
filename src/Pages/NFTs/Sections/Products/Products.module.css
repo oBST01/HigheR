@@ -1,0 +1,50 @@
+div.nftsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div.nftsWrapper > div {
+    flex: 50%;
+    margin-block: 5vh;
+}
+
+div.nft {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+div.nft img {
+    border-radius: 8vh;
+    width: 40vh;
+    height: 40vh;
+    margin-bottom: 2vh;
+}
+
+div.nft button {
+    display: flex;
+    background-color: white;
+    color: #1D256D;
+    padding: 2vh;
+
+    align-items: center;
+
+    border-radius: 10vh;
+
+    font-size: 3vh;
+    font-weight: 700;
+
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+div.nft button:hover {
+    transform: scale(1.1);
+}

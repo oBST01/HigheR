@@ -1,0 +1,27 @@
+div.img {
+    flex: 1
+}
+
+div.img img {
+    width: 100%;
+}
+
+div.text {
+    flex: 1;
+}
+
+div.text h2 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10vh;
+    font-size: 8vh;
+    text-align: start;
+}
+
+div.text p {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 3.5vh;
+    font-weight: 400;
+}

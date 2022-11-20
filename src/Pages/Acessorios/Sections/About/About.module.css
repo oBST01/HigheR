@@ -2,11 +2,17 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  margin-bottom: 10vh;
 }
 
 .text h2 {
   text-align: start;
+  font-size: 7vh;
   font-weight: 900;
+}
+
+.text p {
+  font-size: 3vh;
 }
 
 .img {

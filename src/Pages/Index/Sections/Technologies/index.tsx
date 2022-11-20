@@ -7,11 +7,12 @@ import SpaceshipImage from "../../../../assets/spaceship.png";
 
 import { FaBicycle, FaGamepad, FaImage, FaTv } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
+import SectionTitle from "../../../../Components/SectionTitle";
 
 const Technologies = () => {
   return (
     <Section scrollFadePosition={1000}>
-      <h2 style={{ fontWeight: "bold" }}>Nossas Tecnologias</h2>
+      <SectionTitle>Nossas Tecnologias</SectionTitle>
       <div className={classes.techItemsContainer}>
         <IconContext.Provider value={{ size: "85" }}>
           <div className={classes.techItemBox}>

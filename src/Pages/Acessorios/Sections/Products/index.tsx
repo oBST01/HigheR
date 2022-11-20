@@ -1,31 +1,25 @@
-import classes from "./Products.module.css";
-
 import Section from "../../../../Components/Section";
+import SectionTitle from "../../../../Components/SectionTitle";
 
 import RelogioImage from "../../../../assets/relogio1.jpg";
 import LuvaImage from "../../../../assets/luva1.jpg";
-import { FaArrowRight } from "react-icons/fa";
+import ProductItem from "../../../../Components/ProductItem";
 
 const Products = () => {
   return (
     <Section scrollFadePosition={800} style={{ alignItems: "normal" }}>
-      <h1 className={classes.title}>Acessórios</h1>
-      <div className={classes.productFlexContainer}>
-        <div>
-          <img style={{maxWidth: "90vmin"}} src={RelogioImage} alt="relogio higheR" />
-          <button>
-            <FaArrowRight />
-          </button>
-        </div>
-      </div>
-      <div className={`${classes.productFlexContainer} ${classes.right}`}>
-      <div>
-          <img src={LuvaImage} alt="luva higheR" />
-          <button>
-            <FaArrowRight />
-          </button>
-        </div>
-      </div>
+      <SectionTitle>Acessórios</SectionTitle>
+      <ProductItem
+        imageSrc={RelogioImage}
+        imageAlt="relogio higheR"
+        imageStyle={{ maxWidth: "90vmin" }}
+        alignment="left"
+      />
+      <ProductItem
+        imageSrc={LuvaImage}
+        imageAlt="luva higheR"
+        alignment="right"
+      />
     </Section>
   );
 };

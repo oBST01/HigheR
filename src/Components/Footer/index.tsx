@@ -4,11 +4,12 @@ import Logo from "../../assets/logo.png";
 
 interface IProps {
   background: string;
+  darkMode?: boolean;
 }
 
-const Footer: React.FC<IProps> = ({background}) => {
+const Footer: React.FC<IProps> = ({background, darkMode}) => {
   return (
-    <footer style={{background: background}} className={classes.footer}>
+    <footer style={{background: background}} className={`${classes.footer} ${darkMode && classes.dark}`}>
       <div className={classes.title}>
         <img src={Logo} alt="higheR logo" />
         <p>HigheR</p>

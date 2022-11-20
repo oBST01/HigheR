@@ -3,7 +3,11 @@ import classes from "./Menu.module.css";
 
 import logo from "../../assets/logo.png";
 
-const Menu = () => {
+interface IProps {
+  darkMode?: boolean;
+}
+
+const Menu: React.FC<IProps> = ({darkMode}) => {
   const [menuScrolled, setMenuScrolled] = useState(false);
 
   document.addEventListener("scroll", () => {
@@ -12,7 +16,7 @@ const Menu = () => {
     setMenuScrolled(true);
   });
   return (
-    <div className={`${classes.menu} ${menuScrolled && classes.scrolled}`}>
+    <div className={`${classes.menu} ${darkMode && classes.dark} ${menuScrolled && classes.scrolled}`}>
       <ul>
         <li>DÚVIDAS</li>
         <li>CONTATO</li>
