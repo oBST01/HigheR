@@ -7,6 +7,7 @@ import Acessorios from "./Pages/Acessorios";
 import Mobilidade from "./Pages/Mobilidade";
 import Video from "./Pages/Video";
 import NFTs from "./Pages/NFTs";
+import Sobre from "./Pages/Sobre";
 
 const App = () => {
   
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/mobilidade" element={<Mobilidade />} />
         <Route path="/video" element={<Video />} />
         <Route path="/nfts" element={<NFTs />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,67 @@
+div.textContainer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+div.textBox {
+    color: black;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 4vh;
+}
+
+div.textBox h2,p {
+    color: inherit;
+    font-family: "Quicksand", sans-serif;
+    text-align: start;
+}
+
+div.textBox h2 {
+    font-weight: 700;
+    margin-bottom: 10vh;
+}
+
+div.textBox p {
+    font-size: 3.5vh;
+}
+
+div.buttonContainer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+div.buttonContainer button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #B8E9F0 3.99%, #63A8C7 94.75%);
+    border: none;
+    outline: none;
+    padding: 1vh 7vh;
+
+    font-family: "Sarabun", sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+
+    color: black;
+    border-radius: 5vh;
+
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+div.buttonContainer button:hover {
+    transform: scale(1.1);
+}
+
+div.buttonContainer button path {
+    color: black;
+}

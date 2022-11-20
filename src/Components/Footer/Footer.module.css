@@ -2,42 +2,55 @@
     display: flex;
     flex-direction: column;
 
+    color: white;
+
     width: 100%;
+}
+
+.footer.dark {
+    color: black;
 }
 
 .footer div {
     display: flex;
     margin: 1vh;
     justify-content: space-around;
+    color: inherit;
 }
 
 .footer div div {
     align-items: flex-start;
     flex-direction: column;
+    color: inherit;
 }
 
 .footer div.title {
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    color: inherit;
 }
 
 .footer p {
     font-weight: 900;
+    color: inherit;
 }
 
 .footer h3 {
     font-size: 3vmin;
     text-align: center;
+    color: inherit;
 }
 
 .footer ul {
     padding: 0;
+    color: inherit;
 }
 
 .footer li {
     list-style: none;
     cursor: pointer;
+    color: inherit;
 }
 
 .footer div.title img {

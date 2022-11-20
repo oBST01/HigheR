@@ -1,0 +1,46 @@
+div.namesContainer {
+    display: flex;
+
+    color: black;
+    width: 100%;
+}
+
+div.namesContainer div,ul,li,a,h3 {
+    color: inherit;
+    font-size: 3.5vh;
+}
+
+div.namesContainer > div {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5vh;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+div.namesContainer ul {
+    padding: 0;
+}
+
+div.namesContainer h3 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    margin-bottom: 4vh;
+}
+
+div.namesContainer li {
+    list-style: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 680px) {
+    div.namesContainer {
+        flex-direction: column;
+    }
+}
