@@ -17,15 +17,15 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index path="/HigheR/" element={<Index />} />
-        <Route path="/HigheR/acessorios" element={<Acessorios />} />
-        <Route path="/HigheR/mobilidade" element={<Mobilidade />} />
-        <Route path="/HigheR/video" element={<Video />} />
-        <Route path="/HigheR/nfts" element={<NFTs />} />
-        <Route path="/HigheR/sobre" element={<Sobre />} />
-        <Route path="/HigheR/lojas" element={<Lojas />} />
-        <Route path="/HigheR/contato" element={<Contato />} />
-        <Route path="/HigheR/duvidas" element={<Duvidas />} />
+        <Route index path="/" element={<Index />} />
+        <Route path="/acessorios" element={<Acessorios />} />
+        <Route path="/mobilidade" element={<Mobilidade />} />
+        <Route path="/video" element={<Video />} />
+        <Route path="/nfts" element={<NFTs />} />
+        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/lojas" element={<Lojas />} />
+        <Route path="/contato" element={<Contato />} />
+        <Route path="/duvidas" element={<Duvidas />} />
       </Routes>
     </BrowserRouter>
   );

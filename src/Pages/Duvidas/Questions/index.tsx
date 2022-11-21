@@ -24,7 +24,7 @@ const Questions = () => {
         <div className="collapsible-content">
           <div className="content-inner">
             <p>
-              Sim, clique <Link to="/HigheR/contato">aqui</Link> e seja redirecionado para fazer uma parceria com
+              Sim, clique <Link to="/contato">aqui</Link> e seja redirecionado para fazer uma parceria com
               nossa empresa.
             </p>
           </div>
@@ -37,7 +37,7 @@ const Questions = () => {
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p>Clique <Link to="/HigheR/lojas">aqui</Link> e seja redirecionado para a página lojas.</p>
+            <p>Clique <Link to="/lojas">aqui</Link> e seja redirecionado para a página lojas.</p>
           </div>
         </div>
       </div>

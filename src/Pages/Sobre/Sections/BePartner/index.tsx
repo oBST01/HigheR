@@ -25,7 +25,7 @@ const BePartner = () => {
         </div>
       </div>
       <div className={classes.buttonContainer}>
-        <button onClick={() => {navigate("/HigheR/contato")}}>
+        <button onClick={() => {navigate("/contato")}}>
           <FaRegEnvelope size={30} />&nbsp; Seja Parceiro!
         </button>
       </div>

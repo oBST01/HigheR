@@ -19,7 +19,7 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
       <div className={classes.title}>
         <img
           onClick={() => {
-            navigate("/HigheR/");
+            navigate("/");
           }}
           src={Logo}
           alt="higheR logo"
@@ -30,13 +30,13 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
         <div>
           <p>Sobre</p>
           <ul>
-            <Link to={"/HigheR/sobre"}>
+            <Link to={"/sobre"}>
               <li>Quem somos</li>
             </Link>
-            <Link to={"/HigheR/lojas"}>
+            <Link to={"/lojas"}>
               <li>Lojas</li>
             </Link>
-            <Link to={"/HigheR/duvidas"}>
+            <Link to={"/duvidas"}>
               <li>Dúvidas</li>
             </Link>
           </ul>
@@ -44,19 +44,19 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
         <div>
           <p>Produtos</p>
           <ul>
-            <Link to={"/HigheR/"}>
+            <Link to={"/"}>
               <li>Home</li>
             </Link>
-            <Link to={"/HigheR/acessorios"}>
+            <Link to={"/acessorios"}>
               <li>Acessórios</li>
             </Link>
-            <Link to={"/HigheR/video"}>
+            <Link to={"/video"}>
               <li>Vídeo</li>
             </Link>
-            <Link to={"/HigheR/mobilidade"}>
+            <Link to={"/mobilidade"}>
               <li>Mobilidade</li>
             </Link>
-            <Link to={"/HigheR/nfts"}>
+            <Link to={"/nfts"}>
               <li>NFTs</li>
             </Link>
           </ul>
@@ -70,7 +70,7 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
             <a href="https://instagram.com" target={"_blank"}>
               <li>Instagram</li>
             </a>
-            <Link to={"/HigheR/contato"}>
+            <Link to={"/contato"}>
               <li>Contato</li>
             </Link>
           </ul>

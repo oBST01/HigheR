@@ -19,13 +19,13 @@ const Technologies = () => {
             <TechItem
               title="ACESSÓRIOS"
               description="Nossa tecnologia no seu dia-a-dia"
-              path="/HigheR/acessorios"
+              path="/acessorios"
               icon={<FaGamepad />}
             />
             <TechItem
               title="VÍDEO"
               description="Novas maneiras de visualizar a vida"
-              path="/HigheR/video"
+              path="/video"
               icon={<FaTv />}
             />
           </div>
@@ -36,13 +36,13 @@ const Technologies = () => {
             <TechItem
               title="MOBILIDADE"
               description="Tecnologias que te levará a onde você quiser"
-              path="/HigheR/mobilidade"
+              path="/mobilidade"
               icon={<FaBicycle />}
             />
             <TechItem
               title="NFTS"
               description="Uma nova forma de investimento e comércio com nossas artes."
-              path="/HigheR/nfts"
+              path="/nfts"
               icon={<FaImage />}
             />
           </div>
