@@ -42,7 +42,7 @@ const Technologies = () => {
             <TechItem
               title="NFTS"
               description="Uma nova forma de investimento e comércio com nossas artes."
-              path="/acessorios"
+              path="/nfts"
               icon={<FaImage />}
             />
           </div>

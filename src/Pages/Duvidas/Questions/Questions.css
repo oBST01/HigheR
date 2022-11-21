@@ -3,6 +3,10 @@
   width: 60%;
 }
 
+.wrap-collabsible a {
+  font-size: 2.5vh;
+}
+
 @media screen and (max-width: 780px) {
   .wrap-collabsible {
     width: 90%;

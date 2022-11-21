@@ -1,3 +1,5 @@
+import { Link, useNavigate } from "react-router-dom";
+
 import classes from "./Footer.module.css";
 
 import Logo from "../../assets/logo.png";
@@ -7,38 +9,70 @@ interface IProps {
   darkMode?: boolean;
 }
 
-const Footer: React.FC<IProps> = ({background, darkMode}) => {
+const Footer: React.FC<IProps> = ({ background, darkMode }) => {
+  const navigate = useNavigate()
   return (
-    <footer style={{background: background}} className={`${classes.footer} ${darkMode && classes.dark}`}>
+    <footer
+      style={{ background: background }}
+      className={`${classes.footer} ${darkMode && classes.dark}`}
+    >
       <div className={classes.title}>
-        <img src={Logo} alt="higheR logo" />
+        <img
+          onClick={() => {
+            navigate("/");
+          }}
+          src={Logo}
+          alt="higheR logo"
+        />
         <p>HigheR</p>
       </div>
       <div>
         <div>
           <p>Sobre</p>
           <ul>
-            <li>Quem somos</li>
-            <li>Lojas</li>
-            <li>Dúvidas</li>
+            <Link to={"/sobre"}>
+              <li>Quem somos</li>
+            </Link>
+            <Link to={"/lojas"}>
+              <li>Lojas</li>
+            </Link>
+            <Link to={"/duvidas"}>
+              <li>Dúvidas</li>
+            </Link>
           </ul>
         </div>
         <div>
           <p>Produtos</p>
           <ul>
-            <li>Home</li>
-            <li>Acessórios</li>
-            <li>Vídeo</li>
-            <li>Mobilidade</li>
-            <li>NFTs</li>
+            <Link to={"/"}>
+              <li>Home</li>
+            </Link>
+            <Link to={"/acessorios"}>
+              <li>Acessórios</li>
+            </Link>
+            <Link to={"/video"}>
+              <li>Vídeo</li>
+            </Link>
+            <Link to={"/mobilidade"}>
+              <li>Mobilidade</li>
+            </Link>
+            <Link to={"/nfts"}>
+              <li>NFTs</li>
+            </Link>
           </ul>
         </div>
         <div>
           <p>Suporte</p>
           <ul>
-            <li>Email</li>
-            <li>Instagram</li>
-            <li>Formulário</li>
+            <a href="mailto:contato@higher.com" target={"_blank"}>
+              <li>Email</li>
+            </a>
+            <a href="https://instagram.com" target={"_blank"}>
+              <li>Instagram</li>
+            </a>
+            <Link to={"/contato"}>
+              <li>Contato</li>
+            </Link>
           </ul>
         </div>
       </div>

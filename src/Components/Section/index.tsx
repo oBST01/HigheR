@@ -9,7 +9,13 @@ interface IProps {
   scrollFadePosition: number;
 }
 
-const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row, reverse }) => {
+const Section: React.FC<IProps> = ({
+  children,
+  style,
+  scrollFadePosition,
+  row,
+  reverse,
+}) => {
   const sectionElement = useRef() as MutableRefObject<HTMLDivElement>;
   document.addEventListener("scroll", () => {
     const { scrollY } = window;
@@ -18,11 +24,21 @@ const Section: React.FC<IProps> = ({ children, style, scrollFadePosition, row, r
   });
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     if (scrollFadePosition) return;
     sectionElement.current.style.opacity = "100%";
   }, [sectionElement]);
   return (
-    <div ref={sectionElement} style={style} className={`${classes.section} ${row && `${reverse ? classes.rowReverse : classes.row}`}`}>
+    <div
+      ref={sectionElement}
+      style={style}
+      className={`${classes.section} ${
+        row && `${reverse ? classes.rowReverse : classes.row}`
+      }`}
+    >
       {children}
     </div>
   );

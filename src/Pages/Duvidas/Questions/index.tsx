@@ -1,5 +1,6 @@
 import "./Questions.css";
 import Section from "../../../Components/Section";
+import { Link } from "react-router-dom";
 
 const Questions = () => {
   return (
@@ -23,7 +24,7 @@ const Questions = () => {
         <div className="collapsible-content">
           <div className="content-inner">
             <p>
-              Sim, clique aqui e seja redirecionado para fazer uma parceria com
+              Sim, clique <Link to="/contato">aqui</Link> e seja redirecionado para fazer uma parceria com
               nossa empresa.
             </p>
           </div>
@@ -36,7 +37,7 @@ const Questions = () => {
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p>Clique aqui e seja redirecionado para a página lojas.</p>
+            <p>Clique <Link to="/lojas">aqui</Link> e seja redirecionado para a página lojas.</p>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const TechItem: React.FC<IProps> = ({ title, description, icon, path }) => {
       <p>{description}</p>
       <button
         onClick={() => {
-          navigate(`/${path}`);
+          navigate(path);
         }}
       >
         SAIBA MAIS

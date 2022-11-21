@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import classes from "./About.module.css";
 
 import Button from "../../../../Components/Button";
@@ -8,6 +10,7 @@ import galaxyImage from "../../../../assets/galaxy.png";
 import { FaRegEnvelope } from "react-icons/fa";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <Section
       scrollFadePosition={300}
@@ -17,7 +20,7 @@ const About = () => {
     >
       <div className={classes.container}>
         <img width={500} src={galaxyImage} alt="galaxy" />
-        <Button style={{marginTop: "-6vh"}} onClick={() => {}}>
+        <Button style={{marginTop: "-6vh"}} onClick={() => {navigate("/contato")}}>
           <FaRegEnvelope size={20} style={{ margin: "1vh" }} /> FALE CONOSCO
         </Button>
       </div>

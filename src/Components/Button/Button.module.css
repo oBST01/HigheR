@@ -8,8 +8,7 @@ button.defaultButton {
     border-radius: 5vh;
     color: white;
 
-    padding: 2vh;
-    width: 90%;
+    padding: 2vh 7vh;
 
     font-size: 2vh;
     letter-spacing: 1px;

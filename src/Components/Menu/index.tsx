@@ -2,12 +2,14 @@ import { useState } from "react";
 import classes from "./Menu.module.css";
 
 import logo from "../../assets/logo.png";
+import { Link, useNavigate } from "react-router-dom";
 
 interface IProps {
   darkMode?: boolean;
 }
 
-const Menu: React.FC<IProps> = ({darkMode}) => {
+const Menu: React.FC<IProps> = ({ darkMode }) => {
+  const navigate = useNavigate();
   const [menuScrolled, setMenuScrolled] = useState(false);
 
   document.addEventListener("scroll", () => {
@@ -16,12 +18,27 @@ const Menu: React.FC<IProps> = ({darkMode}) => {
     setMenuScrolled(true);
   });
   return (
-    <div className={`${classes.menu} ${darkMode && classes.dark} ${menuScrolled && classes.scrolled}`}>
+    <div
+      className={`${classes.menu} ${darkMode && classes.dark} ${
+        menuScrolled && classes.scrolled
+      }`}
+    >
       <ul>
-        <li>DÚVIDAS</li>
-        <li>CONTATO</li>
+        <Link to={"/duvidas"}>
+          <li>DÚVIDAS</li>
+        </Link>
+        <Link to={"/contato"}>
+          <li>CONTATO</li>
+        </Link>
       </ul>
-      <img src={logo} className={classes.logo} alt="higheR logo" />
+      <img
+        onClick={() => {
+          navigate("/");
+        }}
+        src={logo}
+        className={classes.logo}
+        alt="higheR logo"
+      />
     </div>
   );
 };
