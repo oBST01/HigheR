@@ -24,16 +24,16 @@ const Menu: React.FC<IProps> = ({ darkMode }) => {
       }`}
     >
       <ul>
-        <Link to={"/duvidas"}>
+        <Link to={"/HigheR/duvidas"}>
           <li>DÚVIDAS</li>
         </Link>
-        <Link to={"/contato"}>
+        <Link to={"/HigheR/contato"}>
           <li>CONTATO</li>
         </Link>
       </ul>
       <img
         onClick={() => {
-          navigate("/");
+          navigate("/HigheR");
         }}
         src={logo}
         className={classes.logo}
