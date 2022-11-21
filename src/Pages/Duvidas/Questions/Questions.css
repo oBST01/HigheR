@@ -1,0 +1,80 @@
+.wrap-collabsible {
+  margin-bottom: 1.2rem 0;
+  width: 60%;
+}
+
+@media screen and (max-width: 780px) {
+  .wrap-collabsible {
+    width: 90%;
+  }
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.lbl-toggle {
+  display: flex;
+  flex-direction: row-reverse;
+
+  justify-content: space-between;
+
+  background-color: rgba(171, 171, 171, 0.2);
+
+  padding: 1rem;
+
+  border-radius: 10vh;
+
+  margin-block: 2vh;
+  
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lbl-toggle::before {
+  content: " ";
+  display: block;
+
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid currentColor;
+  margin-top: 0.2rem;
+  margin-right: 0.7rem;
+  transform: translateY(-2px);
+
+  float: right; 
+  align-self: center;
+
+  transition: transform 0.2s ease-out;
+}
+
+.toggle {
+  align-self: flex-end;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.collapsible-content {
+  display: flex;
+
+  justify-content: center;
+
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100vh;
+}
+
+.collapsible-content .content-inner {
+  width: 95%;
+  background: rgba(250, 224, 66, 0.2);
+  border-bottom: 1px solid rgba(250, 224, 66, 0.45);
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding: 0.5rem 1rem;
+}

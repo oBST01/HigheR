@@ -1,0 +1,23 @@
+div.textImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+div.textImageContainer p {
+    flex: 2;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+}
+
+div.textImageContainer img {
+    flex: 1;
+    width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    div.textImageContainer {
+        flex-direction: column;
+    }
+}
