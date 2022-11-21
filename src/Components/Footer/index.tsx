@@ -67,7 +67,7 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
             <a href="mailto:contato@higher.com" target={"_blank"}>
               <li>Email</li>
             </a>
-            <a href="https://instagram.com" target={"_blank"}>
+            <a href="https://www.instagram.com/office_higher/" target={"_blank"}>
               <li>Instagram</li>
             </a>
             <Link to={"/contato"}>
