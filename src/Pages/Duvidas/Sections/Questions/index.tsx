@@ -76,7 +76,8 @@ const Questions = () => {
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p>Com tecnologias futuristas, que jamais foram vistas.</p>
+            <p>Temos nossos próprios pesquisadores da área que produzem e criam as tecnologias, 
+            também utilizamos de componentes já existentes no mercado para criar nossos produtos.</p>
           </div>
         </div>
       </div>
