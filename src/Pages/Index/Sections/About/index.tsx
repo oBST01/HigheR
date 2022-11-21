@@ -26,7 +26,7 @@ const About = () => {
             navigate("/contato");
           }}
         >
-          <FaRegEnvelope size={20} style={{ margin: "1vh" }} /> FALE CONOSCO
+          <FaRegEnvelope size={30} style={{ margin: "1vh" }} /> FALE CONOSCO
         </Button>
       </div>
       <div className={classes.container}>

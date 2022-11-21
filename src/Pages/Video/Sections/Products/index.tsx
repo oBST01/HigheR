@@ -13,7 +13,7 @@ const Products = () => {
       <SectionTitle>Inovações</SectionTitle>
       <ProductItem
       title="Pc"
-      description=""
+      description="Um novo modelo de notebook, ele traz mobilidade e eficiência tanto para seu trabalho tanto para suas horas de lazer, jogando ou programando."
         images={[PcImage1, PcImage2]}
         imageAlt="pc higheR"
         alignment="right"
