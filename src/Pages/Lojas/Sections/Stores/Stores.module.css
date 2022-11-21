@@ -1,0 +1,46 @@
+div.store {
+    display: flex;
+
+    width: 90%;
+    height: 40vh;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5vh;
+    margin-block: 5vh;
+
+    overflow: hidden;
+}
+
+div.store div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+}
+
+div.store button {
+    width: fit-content;
+    padding: 2vh;
+    margin-top: 3vh;
+}
+
+div.store img{
+    align-self: flex-end;
+    width: 60%;
+}
+
+@media screen and (max-width: 920px) {
+    div.store {
+        flex-direction: column;
+
+        height: fit-content;
+        padding: 4vh;
+    }
+
+    div.store img{
+        align-self: center;
+        margin: 4vh;
+    }
+}

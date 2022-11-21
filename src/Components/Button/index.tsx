@@ -2,14 +2,16 @@ import React from 'react'
 import classes from "./Button.module.css";
 
 interface IProps {
-    children: React.ReactNode;
-    style: React.CSSProperties;
-    onClick: () => void;
+  id?: string;
+  type?: "button" | "reset" | "submit";
+  style?: React.CSSProperties;
+  onClick?: () => void;
+  children: React.ReactNode;
 }
 
-const Button: React.FC<IProps> = ({children, onClick, style}) => {
+const Button: React.FC<IProps> = ({id, type, children, onClick, style}) => {
   return (
-    <button style={style} className={classes.defaultButton} onClick={onClick}>{children}</button>
+    <button id={id} type={type} style={style} className={classes.defaultButton} onClick={onClick}>{children}</button>
   )
 }
 

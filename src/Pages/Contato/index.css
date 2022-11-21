@@ -1,0 +1,67 @@
+label {
+  font-size: 20px;
+}
+article {
+  display: flex;
+  width: 100%;
+}
+.divForms {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 3vh;
+
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+textarea {
+  padding: 5px 0 0 10px;
+  flex: 1;
+  padding: 2vh;
+
+  background: rgba(171, 171, 171, 0.082);
+  border-radius: 1vh;
+  border: none;
+  outline: none;
+}
+input {
+  padding-left: 10px;
+  flex: 1;
+  padding: 2vh;
+
+  background: rgba(171, 171, 171, 0.082);
+  border-radius: 1vh;
+  border: none;
+  outline: none;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.divForms button {
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.2s all;
+}
+.divButton {
+  align-items: center;
+  justify-content: center;
+  padding: 3vh 0 5vh 0;
+}
+.div1 {
+  padding-bottom: 5vh;
+}
+#nome {
+  margin-bottom: 3vh;
+}
+.divForms button:hover {
+  transform: scale(1.02);
+  border: 2px solid white;
+  background: rgba(171, 171, 171, 0.082);
+}

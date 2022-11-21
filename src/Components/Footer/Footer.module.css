@@ -51,8 +51,15 @@
     list-style: none;
     cursor: pointer;
     color: inherit;
+    font-size: 2.5vh;
 }
 
 .footer div.title img {
     width: 10vh;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.footer div.title img:hover {
+    transform: scale(1.1);
 }
