@@ -4,7 +4,7 @@ import Section from "../../../../Components/Section"
 const Main = () => {
   return (
     <Section scrollFadePosition={0}>
-        <BackgroundSection backgroundImageName="background-sobre.jpg">
+        <BackgroundSection backgroundImageName="background-sobre.jpg" darkMode={true}>
             <h2>HigheR</h2>
             <h1>Sobre Nós</h1>
         </BackgroundSection>

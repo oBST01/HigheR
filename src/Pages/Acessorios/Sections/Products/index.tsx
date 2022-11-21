@@ -10,7 +10,7 @@ import ProductItem from "../../../../Components/ProductItem";
 
 const Products = () => {
   return (
-    <Section scrollFadePosition={800} style={{ alignItems: "center" }}>
+    <Section scrollFadePosition={600} style={{ alignItems: "center" }}>
       <SectionTitle>Acessórios</SectionTitle>
       <ProductItem
       title="Relógio"

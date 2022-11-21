@@ -10,7 +10,7 @@ import Main from "./Sections/Main";
 const Sobre = () => {
   return (
     <React.Fragment>
-      <Menu />
+      <Menu darkMode={true} />
       <Main />
       <div style={{background: "#E1F5FC"}}>
         <About />

@@ -12,7 +12,7 @@ import HoverboardImage3 from "../../../../assets/hoverboard3.jpeg";
 
 const Products = () => {
   return (
-    <Section scrollFadePosition={800} style={{ background: "#040233" }}>
+    <Section scrollFadePosition={700} style={{ background: "#040233" }}>
       <SectionTitle>Produtos</SectionTitle>
       <ProductItem
       title="Bike"

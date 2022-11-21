@@ -1,5 +1,5 @@
-import BackgroundSection from "../../../Components/BackgroundSection"
-import Section from "../../../Components/Section"
+import BackgroundSection from "../../../../Components/BackgroundSection"
+import Section from "../../../../Components/Section"
 
 const Main = () => {
   return (

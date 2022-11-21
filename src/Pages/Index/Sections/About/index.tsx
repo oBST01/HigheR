@@ -13,14 +13,19 @@ const About = () => {
   const navigate = useNavigate();
   return (
     <Section
-      scrollFadePosition={300}
+      scrollFadePosition={200}
       style={{ justifyContent: "space-around", padding: "5vh" }}
       row={true}
       reverse={true}
     >
       <div className={classes.container}>
         <img width={500} src={galaxyImage} alt="galaxy" />
-        <Button style={{marginTop: "-6vh"}} onClick={() => {navigate("/contato")}}>
+        <Button
+          style={{ marginTop: "-6vh" }}
+          onClick={() => {
+            navigate("/contato");
+          }}
+        >
           <FaRegEnvelope size={20} style={{ margin: "1vh" }} /> FALE CONOSCO
         </Button>
       </div>
@@ -30,7 +35,9 @@ const About = () => {
         </h2>
         <p className={classes.segDesc}>
           Nós seguimos os dois. Com nossas tecnologias, proporcionamos
-          experiências capazes de te levar ao mais longe canto de todo o espaço
+          experiências capazes de te levar ao mais longe canto de todo o espaço,
+          usando de novas inovações, criamos produtos que proporcionam
+          experiências nunca antes vistas até então.
         </p>
       </div>
     </Section>

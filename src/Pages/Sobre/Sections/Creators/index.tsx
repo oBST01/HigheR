@@ -5,7 +5,7 @@ import SectionTitle from "../../../../Components/SectionTitle";
 
 const Creators = () => {
   return (
-    <Section scrollFadePosition={1600} style={{ background: "#E1F5FC" }}>
+    <Section scrollFadePosition={1300} style={{ background: "#E1F5FC" }}>
       <SectionTitle style={{ color: "black" }}>Idealizadores</SectionTitle>
       <div className={classes.namesContainer}>
         <div>

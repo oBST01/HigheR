@@ -9,7 +9,7 @@ import PhoneImage2 from "../../../../assets/cel2.jpg";
 
 const Products = () => {
   return (
-    <Section scrollFadePosition={1200} style={{ background: "#390F37", marginTop: "10vh" }}>
+    <Section scrollFadePosition={900} style={{ background: "#390F37", marginTop: "10vh" }}>
       <SectionTitle>Inovações</SectionTitle>
       <ProductItem
       title="Pc"

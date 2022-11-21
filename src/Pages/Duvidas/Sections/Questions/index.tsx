@@ -1,5 +1,5 @@
 import "./Questions.css";
-import Section from "../../../Components/Section";
+import Section from "../../../../Components/Section";
 import { Link } from "react-router-dom";
 
 const Questions = () => {
@@ -12,7 +12,12 @@ const Questions = () => {
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p>Buscar a inovação criando o impensável.</p>
+            <p>
+              Observamos que ao passar dos anos, foram surgindo na cabeça das
+              pessoas, tecnologias que facilitariam suas vidas, tais inovações
+              só foram representadas em filmes, até o surgimento da nossa
+              empresa, que visa transformar essas ideias em realidade.
+            </p>
           </div>
         </div>
       </div>
@@ -24,8 +29,11 @@ const Questions = () => {
         <div className="collapsible-content">
           <div className="content-inner">
             <p>
-              Sim, clique <Link to="/contato">aqui</Link> e seja redirecionado para fazer uma parceria com
-              nossa empresa.
+              Essa empresa pretende possuir empresas parceiras? Sim, sabemos que
+              entrar e produzir tecnologias tão diferenciadas não seria fácil,
+              por isso estamos abertos para investidores ou empresas mais
+              experientes no mercado que queriam inovar conosco. Clique{" "}
+              <Link to="/contato">aqui</Link> para nos contatar.
             </p>
           </div>
         </div>
@@ -37,7 +45,11 @@ const Questions = () => {
         </label>
         <div className="collapsible-content">
           <div className="content-inner">
-            <p>Clique <Link to="/lojas">aqui</Link> e seja redirecionado para a página lojas.</p>
+            <p>
+              Não possuímos entregas visando melhor contato com nossos
+              compradores e clientes, caso queira saber onde estão nossas lojas,
+              clique <Link to="/lojas">aqui</Link>.
+            </p>
           </div>
         </div>
       </div>
@@ -49,8 +61,10 @@ const Questions = () => {
         <div className="collapsible-content">
           <div className="content-inner">
             <p>
-              Sim pretendemos expandir a empresa nacionalmente e
-              internacionalmente.
+              Esta empresa trabalha com quais tipos de tecnologia? Temos nossos
+              próprios pesquisadores da área que produzem e criam as
+              tecnologias, também utilizamos de componentes já existentes no
+              mercado para criar nossos produtos
             </p>
           </div>
         </div>

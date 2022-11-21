@@ -7,7 +7,7 @@ import BuildingImage from "../../../../assets/predio.png";
 
 const About = () => {
   return (
-    <Section scrollFadePosition={400}>
+    <Section scrollFadePosition={300}>
       <SectionTitle>Onde comprar</SectionTitle>
       <div className={classes.textImageContainer}>
         <p>
