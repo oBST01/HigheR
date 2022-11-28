@@ -14,7 +14,7 @@ const NFTs = () => {
             <About />
             <Products />
         </div>
-        <Footer background="linear-gradient(180deg, #1D256D 23.37%, #000000 100%)" />
+        <Footer />
     </React.Fragment>
   )
 }

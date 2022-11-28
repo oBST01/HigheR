@@ -48,7 +48,7 @@ const Contato = () => {
           </div>
         </article>
       </Section>
-      <Footer background="linear-gradient(180deg, #000000 23.37%, #460041 50.91%, #010043 100%)" />
+      <Footer />
     </React.Fragment>
   );
 };

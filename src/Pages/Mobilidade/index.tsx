@@ -16,7 +16,7 @@ const Mobilidade = () => {
         <About />
         <Products />
       </div>
-      <Footer background="linear-gradient(180deg, #040233 23.37%, #000000 100%)" />
+      <Footer />
     </React.Fragment>
   );
 };

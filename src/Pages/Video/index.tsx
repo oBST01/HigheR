@@ -15,7 +15,7 @@ const Video = () => {
         <About />
         <Products />
       </div>
-      <Footer background="linear-gradient(180deg, #390F37 23.37%, #000000 100%)" />
+      <Footer />
     </React.Fragment>
   );
 };

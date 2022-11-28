@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import classes from "./ProductItem.module.css";
+
 import { FaArrowRight } from "react-icons/fa";
 import Button from "../Button";
-import classes from "./ProductItem.module.css";
 
 interface IProps {
   title: string;
@@ -45,7 +46,7 @@ const ProductItem: React.FC<IProps> = ({
         <button
           onClick={handleButtonClick}
         >
-          <FaArrowRight />
+          {">"}
         </button>
       </div>
     </div>
