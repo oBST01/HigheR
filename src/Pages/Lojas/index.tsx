@@ -13,7 +13,7 @@ const Lojas = () => {
         <Main />
         <About />
         <Stores />
-        <Footer background="linear-gradient(180deg, #020202 23.37%, #074A79 100%)" />
+        <Footer />
     </React.Fragment>
   )
 }

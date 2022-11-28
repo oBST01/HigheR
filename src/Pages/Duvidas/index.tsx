@@ -10,7 +10,7 @@ const Duvidas = () => {
       <Menu />
       <Main />
       <Questions />
-      <Footer background="linear-gradient(180deg, #02060C 23.37%, #0C1F49 100%)" />
+      <Footer />
     </React.Fragment>
   );
 };
