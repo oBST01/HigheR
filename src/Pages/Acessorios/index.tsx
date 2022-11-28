@@ -12,7 +12,7 @@ const Acessorios = () => {
       <Main />
       <About />
       <Products />
-      <Footer background="linear-gradient(180deg, #000000 23.37%, #DE3E32 100%)" />
+      <Footer />
     </React.Fragment>
   );
 };

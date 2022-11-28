@@ -3,9 +3,11 @@ import { Link, useNavigate } from "react-router-dom";
 import classes from "./Footer.module.css";
 
 import Logo from "../../assets/logo.png";
+import { FaEnvelope, FaInstagram, FaPhone, FaTwitter, FaWpforms } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 
 interface IProps {
-  background: string;
+  background?: string;
   darkMode?: boolean;
 }
 
@@ -62,17 +64,22 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
           </ul>
         </div>
         <div>
-          <p>Suporte</p>
-          <ul>
-            <a href="mailto:contato@higher.com" target={"_blank"}>
-              <li>Email</li>
-            </a>
-            <a href="https://www.instagram.com/office_higher/" target={"_blank"}>
-              <li>Instagram</li>
-            </a>
-            <Link to={"/contato"}>
-              <li>Contato</li>
-            </Link>
+          <p style={{alignSelf: "center"}}>Suporte</p>
+          <ul style={{display: "flex"}} className={classes.icons}>
+            <IconContext.Provider value={{size: "28", style: {fill: darkMode ? "black": "white"}}}>
+              <a href="mailto:higher.techoffice@higher.com" target={"_blank"}>
+                <li><FaEnvelope /></li>
+              </a>
+              <a href="https://www.instagram.com/office_higher/" target={"_blank"}>
+                <li><FaInstagram /></li>
+              </a>
+              <a href="https://twitter.com" target={"_blank"}>
+                <li><FaTwitter /></li>
+              </a>
+              <Link to={"/contato"}>
+                <li><FaWpforms /></li>
+              </Link>
+            </IconContext.Provider>
           </ul>
         </div>
       </div>
