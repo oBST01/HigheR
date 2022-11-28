@@ -35,7 +35,7 @@ const Technologies = () => {
           <div className={classes.techItemBox}>
             <TechItem
               title="MOBILIDADE"
-              description="Tecnologias que te levará a onde você quiser"
+              description="Tecnologias que te levarão aonde quer que você queira"
               path="/mobilidade"
               icon={<FaBicycle />}
             />

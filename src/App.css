@@ -25,11 +25,14 @@ h2,
 h3,
 p {
   z-index: 99;
+  letter-spacing: 0.3vh;
 }
 
 h1 {
   font-family: "Quicksand", sans-serif;
   text-align: center;
+  letter-spacing: 2px;
+  letter-spacing: 0.8vh;
 }
 
 h2 {
@@ -37,4 +40,5 @@ h2 {
   text-align: center;
   font-size: 7vmin;
   font-weight: 400;
+  letter-spacing: 0.8vh;
 }
