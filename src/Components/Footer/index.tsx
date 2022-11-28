@@ -66,7 +66,7 @@ const Footer: React.FC<IProps> = ({ background, darkMode }) => {
         <div>
           <p style={{alignSelf: "center"}}>Suporte</p>
           <ul style={{display: "flex"}} className={classes.icons}>
-            <IconContext.Provider value={{size: "28"}}>
+            <IconContext.Provider value={{size: "28", style: {fill: darkMode ? "black": "white"}}}>
               <a href="mailto:higher.techoffice@higher.com" target={"_blank"}>
                 <li><FaEnvelope /></li>
               </a>
