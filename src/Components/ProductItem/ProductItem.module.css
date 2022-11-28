@@ -33,12 +33,12 @@ div.productFlexContainer img {
 div.productFlexContainer button {
     background-color: rgba(255, 255, 255, 0.22);
 
-    width: 20vh;
+    width: 8vh;
 
-    font-size: 3vh;
+    font-size: 5vh;
+    font-weight: bold;
     border-radius: 5vh;
 
-    padding: 1vh;
     margin: 2vh;
 
     border: none;

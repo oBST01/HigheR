@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 
-import { FaArrowRight } from "react-icons/fa";
 import classes from "./ProductItem.module.css";
 
 interface IProps {
@@ -33,7 +32,7 @@ const ProductItem: React.FC<IProps> = ({
             navigate(href);
           }}
         >
-          <FaArrowRight />
+          {">"}
         </button>
       </div>
     </div>
