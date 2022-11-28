@@ -17,8 +17,11 @@ const About = () => {
       <div className={classes.text}>
         <h2>Minimalistas, mas eficientes</h2>
         <p>
-          Com nossa tecnologia, estes acessórios podem proporcionar experiências
-          que antes eram presentes apenas em filmes.
+          Com estes acessórios podemos proporcionar experiências no dia-a-dia de
+          todos os que as utilizam, facilitando e transformando ainda mais a
+          rotina maçante e cansativa atualmente. Além de tudo, estes produtos
+          foram pensado exclusivamente em que deseja chamar a atenção, onde eles
+          se destacam por sua aparência exótica.
         </p>
       </div>
       <div className={classes.img}>

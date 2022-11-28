@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "../../Components/Footer";
 import Menu from "../../Components/Menu";
-import Main from "./Main";
-import Questions from "./Questions";
+import Main from "./Sections/Main";
+import Questions from "./Sections/Questions";
 
 const Duvidas = () => {
   return (

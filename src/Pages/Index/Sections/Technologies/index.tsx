@@ -11,7 +11,7 @@ import SectionTitle from "../../../../Components/SectionTitle";
 
 const Technologies = () => {
   return (
-    <Section scrollFadePosition={1000}>
+    <Section scrollFadePosition={800}>
       <SectionTitle>Nossas Tecnologias</SectionTitle>
       <div className={classes.techItemsContainer}>
         <IconContext.Provider value={{ size: "85" }}>

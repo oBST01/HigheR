@@ -12,7 +12,7 @@ import BCStore from "../../../../assets/loja-bc.jpg";
 
 const Stores = () => {
   return (
-    <Section scrollFadePosition={800}>
+    <Section scrollFadePosition={600}>
       <SectionTitle>Lojas</SectionTitle>
       <div className={classes.store}>
         <div style={{ flex: 2 }}>

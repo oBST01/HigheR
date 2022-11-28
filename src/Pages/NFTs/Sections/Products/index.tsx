@@ -12,7 +12,7 @@ import { IconContext } from "react-icons/lib";
 
 const Products = () => {
   return (
-    <Section scrollFadePosition={1200} style={{ background: "#1D256D", padding: "5vh" }}>
+    <Section scrollFadePosition={800} style={{ background: "#1D256D", padding: "5vh" }}>
       <SectionTitle>Artes</SectionTitle>
       <div className={classes.nftsWrapper}>
         <IconContext.Provider

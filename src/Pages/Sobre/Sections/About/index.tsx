@@ -7,7 +7,7 @@ import AstronautImage from "../../../../assets/astronauta.png";
 const About = () => {
   return (
     <Section
-      scrollFadePosition={400}
+      scrollFadePosition={300}
       row={true}
       style={{ background: "#E1F5FC", padding: "5vh" }}
       reverse={true}

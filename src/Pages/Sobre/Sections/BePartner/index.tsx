@@ -10,7 +10,7 @@ const BePartner = () => {
   const navigate = useNavigate();
   return (
     <Section
-      scrollFadePosition={1000}
+      scrollFadePosition={800}
       row={true}
       style={{ background: "#E1F5FC" }}
     >

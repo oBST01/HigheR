@@ -34,7 +34,7 @@ const Main = () => {
             <a
               className={classes.icon}
               target="_blank"
-              href="mailto:contato@higher.com"
+              href="mailto:higher.techoffice@gmail.com"
             >
               <FaRegEnvelope />
             </a>

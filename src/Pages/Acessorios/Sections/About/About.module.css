@@ -9,6 +9,7 @@
   text-align: start;
   font-size: 7vh;
   font-weight: 900;
+  margin-bottom: 8vh;
 }
 
 .text p {
@@ -31,6 +32,5 @@
         display: block;
         margin: auto;
         width: 60vh;
-        margin-top: -30vh;
     }
 }
