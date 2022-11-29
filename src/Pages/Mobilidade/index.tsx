@@ -12,7 +12,7 @@ const Mobilidade = () => {
     <React.Fragment>
       <Menu />
       <Main />
-      <div style={{ background: "#040233" }}>
+      <div style={{ background: "#000115" }}>
         <About />
         <Products />
       </div>
