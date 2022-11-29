@@ -21,7 +21,7 @@ const Products = () => {
         imageStyle={{ maxWidth: "90vmin" }}
         alignment="center"
         description="Ja pensou em ter um meio de trasporte prático,rápido,tecnologico e nao poluente?
-        Pois temos soluções acessíveis,nosso novo produto Cnc56 é um exemplo, se mover nunca foi tao facil e tecnológico.
+        Pois temos soluções acessíveis, nosso novo produto Cnc56 é um exemplo, se mover nunca foi tao facil e tecnológico.
         Conectado a tudo e todos mesmo em movimento."
       />
       <ProductItem
@@ -30,8 +30,8 @@ const Products = () => {
         imageAlt="hoverboard higheR"
         imageStyle={{ maxWidth: "90vmin" }}
         alignment="center"
-        description="Levitaçao,caregamento via 
-        energia solar,limpo de poluentes,velocidade e praticidade,
+        description="Levitaçao, caregamento via 
+        energia solar, limpo de poluentes, velocidade e praticidade,
         estamos falando do nosso hoverboard."
       />
     </Section>
