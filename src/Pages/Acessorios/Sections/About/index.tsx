@@ -11,7 +11,6 @@ const About = () => {
       scrollFadePosition={0}
       style={{
         paddingInline: "8vh",
-        background: "linear-gradient(180deg, #DE3E32 27.02%, #000000 39.35%)",
       }}
     >
       <div className={classes.text}>

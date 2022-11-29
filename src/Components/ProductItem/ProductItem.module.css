@@ -45,7 +45,7 @@ div.productFlexContainer.left img {
     align-self: flex-start;
 }
 
-div.productFlexContainer button {
+div.productFlexContainer button.nextSlide {
     display: block;
     background-color: rgba(255, 255, 255, 0.22);
 
@@ -63,7 +63,7 @@ div.productFlexContainer button {
     transition: 0.2s all;
 }
 
-div.productFlexContainer button:hover {
+div.productFlexContainer button.nextSlide:hover {
     transform: scale(1.1);
 }
 

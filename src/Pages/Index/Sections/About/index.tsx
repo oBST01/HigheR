@@ -7,8 +7,6 @@ import Section from "../../../../Components/Section";
 
 import galaxyImage from "../../../../assets/galaxy.png";
 
-import { FaRegEnvelope } from "react-icons/fa";
-
 const About = () => {
   const navigate = useNavigate();
   return (
@@ -26,7 +24,7 @@ const About = () => {
             navigate("/contato");
           }}
         >
-          <FaRegEnvelope size={30} style={{ margin: "1vh" }} /> FALE CONOSCO
+          SAIBA MAIS
         </Button>
       </div>
       <div className={classes.container}>

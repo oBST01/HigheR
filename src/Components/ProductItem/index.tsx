@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import classes from "./ProductItem.module.css";
 
-import { FaArrowRight } from "react-icons/fa";
 import Button from "../Button";
 
 interface IProps {
@@ -44,6 +43,7 @@ const ProductItem: React.FC<IProps> = ({
       <div>
         <img style={imageStyle} src={images[currentImage]} alt={imageAlt} />
         <button
+          className={classes.nextSlide}
           onClick={handleButtonClick}
         >
           {">"}
