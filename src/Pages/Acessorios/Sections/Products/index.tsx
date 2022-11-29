@@ -18,7 +18,10 @@ const Products = () => {
         imageAlt="relogio higheR"
         imageStyle={{ maxWidth: "90vmin" }}
         alignment="left"
-        description="Esta luva controla toda tecnologia existente, ela pode controlar algo mexendo os dedos ou até mesmo a voz!"
+        description="Ja pensou em unir o vintage com a mais alta tecnologia da atualidade? 
+        Nós sim,um instrumento do dia a dia com uma 
+        aparência excêntrica e antiga com a mais alta 
+        tecnologia e recursos inovadores."
       />
       <ProductItem
       title="Luva"

@@ -15,20 +15,24 @@ const Products = () => {
     <Section scrollFadePosition={700} style={{ background: "#000115" }}>
       <SectionTitle>Produtos</SectionTitle>
       <ProductItem
-      title="Bike"
+        title="Bike"
         images={[BikeImage1, BikeImage2, BikeImage3, BikeImage4]}
         imageAlt="bike higheR"
         imageStyle={{ maxWidth: "90vmin" }}
         alignment="center"
-        description="Uma bike altamente tecnológica, que não possui raios nas rodas. A bicicleta é equipada com sistema bluetooth capaz de parear com qualquer aparelho, obedece a comandos de voz e possui sistema GPS"
+        description="Ja pensou em ter um meio de trasporte prático,rápido,tecnologico e nao poluente?
+        Pois temos soluções acessíveis,nosso novo produto Cnc56 é um exemplo, se mover nunca foi tao facil e tecnológico.
+        Conectado a tudo e todos mesmo em movimento."
       />
       <ProductItem
-      title="Hoverboard"
+        title="Hoverboard"
         images={[HoverboardImage1, HoverboardImage2, HoverboardImage3]}
         imageAlt="hoverboard higheR"
         imageStyle={{ maxWidth: "90vmin" }}
         alignment="center"
-        description="Diferentemente dos outros fakeboards que você já está acostumado a ver, esse hoverboard realmente levita, não toca no chão e pode voar até certas altitudes"
+        description="Levitaçao,caregamento via 
+        energia solar,limpo de poluentes,velocidade e praticidade,
+        estamos falando do nosso hoverboard."
       />
     </Section>
   );
