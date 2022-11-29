@@ -9,7 +9,7 @@ const About = () => {
     <Section
       scrollFadePosition={300}
       row={true}
-      style={{ padding: "2vh", background: "#040233" }}
+      style={{ padding: "2vh", background: "#000115" }}
     >
       <div className={classes.text}>
         <h2>Tecnologia enquanto se movimenta</h2>
