@@ -17,7 +17,7 @@ const Products = () => {
       <ProductItem
         title="Pc"
         description="Um novo desing,novas tecnologias,novas experiências. 
-      Nosso notebook vai alem de suas expectativas,praticidade de transporte,
+      Nosso notebook vai alem de suas expectativas, praticidade de transporte,
       segurança e lazer em um único lugar."
         images={[PcImage1, PcImage2]}
         imageAlt="pc higheR"
