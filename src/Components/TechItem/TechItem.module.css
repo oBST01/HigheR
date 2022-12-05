@@ -36,6 +36,7 @@ div.techItem h2 {
 
 div.techItem p {
   font-size: 2.5vh;
+  text-align: center;
 }
 
 div.techItem button {

@@ -5,7 +5,7 @@ div.img img {
 div.text {
     margin-top: 10vh;
     padding: 3vh;
-    width: 60vh;
+    width: 80vh;
     max-width: 90vh;
     background-color: rgba(0, 0, 0, 0.2);
     text-align: start;
@@ -21,6 +21,7 @@ div.text h2 {
 
 div.text p {
     font-size: 3.2vh;
+    text-align: justify;
 }
 
 @media screen and (max-width: 680px) {
