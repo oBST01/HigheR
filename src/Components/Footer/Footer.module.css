@@ -11,7 +11,7 @@
 
 .footer.dark {
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .footer div {
@@ -36,7 +36,7 @@
 
 .footer p {
     font-size: 3vh;
-    font-weight: 900;
+    font-weight: 500;
     color: inherit;
     text-align: center;
 }

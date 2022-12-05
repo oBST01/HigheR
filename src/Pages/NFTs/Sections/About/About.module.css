@@ -22,6 +22,7 @@ div.text {
 
 div.text p {
     font-size: 4vh;
+    text-align: justify;
 }
 
 @media screen and (max-width: 680px) {

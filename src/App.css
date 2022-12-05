@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&family=Sarabun&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&family=Sarabun&display=swap");
 
 @keyframes fadeIn {
   0% {
@@ -26,6 +26,10 @@ h2,
 h3,
 p {
   z-index: 99;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {

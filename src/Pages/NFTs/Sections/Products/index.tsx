@@ -9,41 +9,34 @@ import Nft2 from "../../../../assets/nft2.png";
 import Nft3 from "../../../../assets/nft3.png";
 import Nft4 from "../../../../assets/nft4.png";
 import { IconContext } from "react-icons/lib";
+import OpenSeaButton from "../../../../Components/OpenSeaButton";
 
 const Products = () => {
   return (
-    <Section scrollFadePosition={800} style={{ background: "#1D256D", padding: "5vh" }}>
+    <Section
+      scrollFadePosition={800}
+      style={{ background: "#1D256D", padding: "5vh" }}
+    >
       <SectionTitle>Artes</SectionTitle>
       <div className={classes.nftsWrapper}>
         <IconContext.Provider
           value={{ size: "26", style: { fill: "#1D256D" } }}
         >
           <div className={classes.nft}>
-            <img src={Nft1} alt="nft higheR" />
-            <button>
-              Open Sea &nbsp;
-              <FaArrowRight />
-            </button>
+            <img className={classes.nftLogo} src={Nft1} alt="nft higheR" />
+            <OpenSeaButton />
           </div>
           <div className={classes.nft}>
-            <img src={Nft2} alt="nft higheR" />
-            <button>
-              Open Sea &nbsp;
-              <FaArrowRight />
-            </button>
+            <img className={classes.nftLogo} src={Nft2} alt="nft higheR" />
+            <OpenSeaButton />
           </div>
           <div className={classes.nft}>
-            <img src={Nft3} alt="nft higheR" />
-            <button>
-              Open Sea &nbsp;
-              <FaArrowRight />
-            </button>
+            <img className={classes.nftLogo} src={Nft3} alt="nft higheR" />
+            <OpenSeaButton />
           </div>
           <div className={classes.nft}>
-            <img src={Nft4} alt="nft higheR" />
-            <button>
-              Open Sea <FaArrowRight />
-            </button>
+            <img className={classes.nftLogo} src={Nft4} alt="nft higheR" />
+            <OpenSeaButton />
           </div>
         </IconContext.Provider>
       </div>

@@ -1,0 +1,44 @@
+button.openSea {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+
+    border-radius: 8vh;
+    border: 4px solid white;
+    padding: 0;
+
+    overflow: hidden;
+
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+button.openSea:hover {
+    transform: scale(1.1);
+}
+
+button.openSea.dark {
+    background: transparent;
+    color: white;
+}
+
+button.openSea.light {
+    background-color: white;
+    color: rgba(29, 37, 109, 1);
+}
+
+button.openSea img {
+    width: 10vh;
+    height: 10vh;
+    align-self: flex-start;
+    border-radius: 10vh;
+}
+
+button.openSea p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 5vh;
+    color: inherit;
+    margin-inline: 3vh;
+}
