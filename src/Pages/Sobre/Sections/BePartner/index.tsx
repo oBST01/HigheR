@@ -5,6 +5,7 @@ import classes from "./BePartner.module.css";
 import Section from "../../../../Components/Section";
 
 import { FaRegEnvelope } from "react-icons/fa";
+import Button from "../../../../Components/Button";
 
 const BePartner = () => {
   const navigate = useNavigate();
@@ -25,9 +26,9 @@ const BePartner = () => {
         </div>
       </div>
       <div className={classes.buttonContainer}>
-        <button onClick={() => {navigate("/contato")}}>
+        <Button>
           <FaRegEnvelope size={30} />&nbsp; Seja Parceiro!
-        </button>
+        </Button>
       </div>
     </Section>
   );

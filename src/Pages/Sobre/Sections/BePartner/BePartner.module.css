@@ -40,26 +40,9 @@ div.buttonContainer {
 }
 
 div.buttonContainer button {
-    display: flex;
-    align-items: center;
     background: linear-gradient(90deg, #B8E9F0 3.99%, #63A8C7 94.75%);
-    border: none;
-    outline: none;
     padding: 1vh 7vh;
-
-    font-family: "Sarabun", sans-serif;
-    font-size: 3vh;
-    font-weight: 700;
-
     color: black;
-    border-radius: 5vh;
-
-    cursor: pointer;
-    transition: 0.2s all;
-}
-
-div.buttonContainer button:hover {
-    transform: scale(1.1);
 }
 
 div.buttonContainer button path {

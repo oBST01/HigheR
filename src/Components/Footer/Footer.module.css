@@ -1,90 +1,104 @@
 .footer {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    background-color: #0C0C0C;
+  background-color: #0c0c0c;
 
-    color: white;
+  color: white;
 
-    width: 100%;
+  width: 100%;
 }
 
 .footer.dark {
-    color: black;
-    font-weight: 500;
+  color: black;
+  font-weight: 500;
 }
 
 .footer div {
-    display: flex;
-    margin: 1vh;
-    justify-content: space-around;
-    color: inherit;
+  display: flex;
+  margin: 1vh;
+  justify-content: space-around;
+  color: inherit;
 }
 
 .footer div div {
-    align-items: start;
-    flex-direction: column;
-    color: inherit;
-}
-
-.footer div.title {
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    color: inherit;
+  align-items: start;
+  flex-direction: column;
+  color: inherit;
 }
 
 .footer p {
-    font-size: 3vh;
-    font-weight: 500;
-    color: inherit;
-    text-align: center;
+  font-size: 3vh;
+  font-weight: 500;
+  color: inherit;
+  text-align: center;
 }
 
 .footer h3 {
-    font-size: 3vmin;
-    text-align: center;
-    color: inherit;
+  font-size: 3vmin;
+  text-align: center;
+  color: inherit;
 }
 
 .footer ul {
-    padding: 0;
-    color: inherit;
+  padding: 0;
+  color: inherit;
 
-    align-items: center;
-    justify-content: center;
-}
-
-.footer ul.icons {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer ul.icons li {
-    margin-inline: 1vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer li {
-    list-style: none;
-    cursor: pointer;
-    color: inherit;
-    font-size: 2.5vh;
+  list-style: none;
+  cursor: pointer;
+  color: inherit;
+  font-size: 2.5vh;
+
+  transition: 0.2s all;
+}
+
+.footer li:hover {
+  background-color: rgba(128, 128, 128, 0.301);
+  transform: scale(1.1);
 }
 
 .footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
+/* TITLE */
+
 .footer div.title {
-    margin: 0;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: inherit;
+  margin: 0;
 }
 
 .footer div.title img {
-    width: 10vh;
-    cursor: pointer;
-    transition: 0.2s all;
+  width: 10vh;
+  cursor: pointer;
+  transition: 0.2s all;
 }
 
 .footer div.title img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ICONS */
+
+.footer ul.icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer ul.icons li {
+  margin-inline: 1vh;
+  transition: 0.2s all;
+}
+
+footer ul.icons li:hover {
+  background: transparent;
+  transform: scale(1.1);
 }
